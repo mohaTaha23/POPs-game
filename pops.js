@@ -9,7 +9,6 @@ function getRandomColor() {
 }
 function getRandomEnd(){
     const statements = ["ummm... u clicking or what?","LOL too slow","imagine these beat you 💀","one more time","GG... try again"]
-    statements.reverse();
     return statements[Math.floor(score/5)>4 ? 4:Math.floor(score/5)];
 }
 
