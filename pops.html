@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>pop them all</title>
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    body{
+        display: flexbox;
+    }
+    #gameArea {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        background-color: #000;
+        display: flex;
+    }
+    .ball {
+        position: absolute;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        background-color: white;
+        cursor: pointer;
+    }
+    p{
+        text-size-adjust: 50px;
+        color: white;
+        align-self:self-start;
+    }
+    #score{
+        margin: 20px 60px;
+    }
+    #balls{
+        background-color: #000;
+        align-self:center;
+        display: inline-flex;
+        margin: 0 auto;
+        opacity: 75%;
+    }
+</style>
+</head>
+<body>
+    <div id="gameArea">
+        <p>
+            your score : <p id = "score"></p>
+        </p>
+        <p id="balls"></p>          <!--set this text value in the js file -->
+    </div>
+    <script src="pops.js"></script>
+</body>
+</html>
