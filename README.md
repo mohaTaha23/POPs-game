@@ -1,2 +1,2 @@
 # POPs-game
-simple and fun game, html css and js
+simple and fun game, using html css and js
